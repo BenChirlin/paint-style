@@ -1,0 +1,89 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.paint-box { padding: 25px 15px; }
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.paint-box h1 { font-size: 55px; }
+		.nav .inner { font-size: 38px; }
+		h2.entry-title { font-size: 48px; }
+		.entry-content { font-size: 32px; line-height: 45px; }
+		a.social-link { margin: 0 12px; }
+		.work-content .work-item a .thumb-img img { margin-left: -30px; }
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.nonmobile { display: none; }
+		.mobile { display: inline; }
+		.paint-box .logo { width: 120px; margin-bottom: 10px; }
+		.home-content { margin-top: 5px; }
+		.nav .inner .menu-img { display: none; }
+		.paint-box.nav { margin-top: 5px; height: auto; }
+		.blog-content, .page-content, .main-content { margin: 10px 20px 0; }
+		.work-content { margin-top: 10px; }
+		.work-content article { margin: 0 20px; }
+		.footer { margin-top: 70px; }
+		.footer a.footer-logo { float: none; margin: 20px auto; }
+		.entry-header { margin: 0; }
+		.nav .inner { font-size: 36px; }
+		.work-content .work-item a .thumb-img img { display: none; }
+		.work-content .work-items .work-item { margin-bottom: 20px; }
+		.work-nav { margin-top: 10px; }
+		.work-content .work-items .work-item { background-color: transparent; }
+		.work-content .work-item a .thumb-img img, .work-content .work-item a:hover .thumb-img img { display: block; opacity: 1; }
+		.ajax-loader { top: 370px; }
+		.ajax-loader .leftjax { display: none; }
+		a.social-link { color: #B12329; }
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.min-header .paint-box h1, .paint-box h1 { font-size: 36px; }
+		.min-header .paint-box h1 {
+			font-size: 26px;
+		    left: -8px;
+		    top: -55px;
+		}
+		.min-header .paint-box h1 span { margin: 0 52px; }
+		h2.entry-title { font-size: 36px; }
+		.entry-content { font-size: 25px; line-height: 36px; }
+		a.social-link, a.social-link:first-child, a.social-link:last-child { margin: 0 30px 20px; }
+		.work-content .work-item  a { margin: 0 70px; }
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.paint-box h1 { font-size: 26px; }
+		.min-header .paint-box h1 { display: none; }
+		h2.entry-title { font-size: 25px; }
+		.entry-content { font-size: 20px; line-height: 30px; }
+		a.social-link, a.social-link:first-child, a.social-link:last-child { margin: 0 10px 20px; }
+		.work-content .work-item  a { margin: 0 10px; }
+	}

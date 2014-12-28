@@ -209,7 +209,7 @@ jQuery(document).ready(function($) {
             var link = $(this).attr('href');
             window.location.hash = "work-" + pgNum(link);
             $('.work-content .work-items').fadeOut(1000, function(){
-                $(this).load( '/' + link, function() {
+                $(this).load( '/work/' + link, function() {
                     //attachWorkItems();
                     attachWorkPaging();
                     $(this).fadeIn(1000);

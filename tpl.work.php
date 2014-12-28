@@ -12,7 +12,7 @@ $params = array(
 	'limit'   => 16
 );
 $works = pods( 'work', $params );
- 
+
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article">
 	<header class="entry-header">

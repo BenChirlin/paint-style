@@ -206,12 +206,10 @@ jQuery(document).ready(function($) {
     function attachWorkPaging() {
         $('.nav-previous a, .nav-next a, .pods-pagination-number').click(function(e){
             e.preventDefault();
-            var re = /(?!\?pg=)\d+/i;
             var link = $(this).attr('href');
-            var loc = link.match( re );
-            window.location.hash = "work-" + pgNum(loc[0]);
+            window.location.hash = "work-" + pgNum(link);
             $('.work-content .work-items').fadeOut(1000, function(){
-                $(this).load(link, function() {
+                $(this).load( '/' + link, function() {
                     //attachWorkItems();
                     attachWorkPaging();
                     $(this).fadeIn(1000);

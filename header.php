@@ -30,7 +30,7 @@
 
 	<!-- CSS
   ================================================== -->
-	<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400italic|Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400italic|Goudy+Bookletter+1911' rel='stylesheet' type='text/css' data-noprefix>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesheets/base.css">
 	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/style.css">
 	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/stylesheets/global.css">

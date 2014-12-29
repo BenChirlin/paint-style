@@ -4,7 +4,7 @@
 	padding: 40px 15px;
 	position: relative;
 	overflow: hidden;
-	
+
 	transition: background 0.5s;
 }
 .animated .paint-box { transition: padding 2s, height 2s, background 2s; }
@@ -146,7 +146,7 @@ a:hover .paint-box {
 	float: left;
 	width: 100%;
 	position: relative;
-	
+
 	transition: height 3s;
 }
 .nav .inner {
@@ -209,7 +209,7 @@ h2.entry-title {
 	width: 30px;
 	height: 30px;
 	display: none;
-	
+
 	background: url(../images/sprite-sheet.png) no-repeat scroll -30px -85px #B12329;
 }
 .ajax-loader .jax.leftjax div { float: right; margin-left: 20px; }
@@ -315,7 +315,11 @@ a.post-edit-link {
 	line-height: 22px;
 	text-align: center;
 }
-article div.sharedaddy div.sd-block { border: none; width: 140px !important; margin: 0 auto; }
+article div.sharedaddy div.sd-block {
+	border: none;
+	text-align: center;
+	margin: 0 auto;
+}
 .blog-content div.sharedaddy .sd-content {width: 100%;}
 article p, .blog-content article p, .page-content p {
 	margin-bottom: 10px;
@@ -429,10 +433,10 @@ article p, .blog-content article p, .page-content p {
 	padding: 5px;
 	color: #FFF;
 	background-color: rgba(0,0,0,0.75);
-	
+
 	transition: bottom 1s;
 }
-.slider-container:hover .img-caption { bottom: 0px; } 
+.slider-container:hover .img-caption { bottom: 0px; }
 .slider-container .slide-nav.next { left: 50%; }
 .slider-container .slide-nav.last { right: 50%; }
 .pod-work .work-content article p img { width: 100%; height: auto; }
@@ -445,8 +449,8 @@ article p, .blog-content article p, .page-content p {
 	width: 100%;
 }
 .pod-work .work-content article div.sharedaddy .sd-content {
-	width: 140px;
 	float: none;
+	text-align: center;
 	margin: 5px auto 0;
 }
 /*-------------CONTACT--------------*/
@@ -492,7 +496,7 @@ form .paint-box.shadowed .spacer {
 	text-align: center;
 	display: block;
 	cursor: pointer;
-	
+
 	transition: background 0.5s;
 }
 .work-content .work-link {
